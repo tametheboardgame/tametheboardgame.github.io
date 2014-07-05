@@ -1,23 +1,41 @@
 body{
 	/*background-color: #4C331A;*/
-	background: url("Backdrop.png");
+	background: url("Backdrop.PNG");
 	font-family: "calibri";
+	padding: 0px;
+	margin: 0px;
 }
 
 .main-container{
-	width: 900px; margin: auto;
+	max-width: 900px; margin: auto;
 	background-color: white;
+	opacity: 0.9;
+	height: 100%;
+}
+
+.wrapper{
+	min-height: 100%;
+}
+
+.push{
+	height: 130px;
+	clear: both;
+	position: relative;
 }
 
 .logo{ 
 	height: 100px;
 	width: 776px;
-	background: url("logo.png") no-repeat;
+	background: url("logo.PNG") no-repeat;
 	margin:auto;
 }
 
 .header, .footer{
 	height: 130px; background-color: black;
+}
+
+.footer{
+	margin-top: -130px;
 }
 
 a, .footer div{
@@ -29,17 +47,16 @@ a:hover {color:gray;}
 .footer div:hover{ color:gray; cursor:pointer; }
 
 .middle{
-	clear: both; padding: 20px;
-	min-height: 500px;
+	clear: both; padding: 20px; background: white;
 }
 
 .center{
 	margin: auto; width: 494px;
+
 }
 
 .board{
-	
-	height: 693px; width: 490px; background: url("Background.png");
+	height: 693px; width: 490px; background: url("Background.PNG");
 	border: #333300 2px solid; /*to be changed for turns*/
 	position: relative;
 }
