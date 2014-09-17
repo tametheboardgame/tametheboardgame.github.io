@@ -56,7 +56,7 @@ a:hover {color:gray;}
 }
 
 .board{
-	height: 693px; width: 490px; background: url("Background.PNG");
+	height: 693px; width: 490px; background: url("Background.png");
 	border: #333300 2px solid; /*to be changed for turns*/
 	position: relative;
 }
