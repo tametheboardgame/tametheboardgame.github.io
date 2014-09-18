@@ -8,7 +8,6 @@ html, body, .main-container{
 }
 
 .footer-container{
-  position: relative;
-  top: -123px;
+  margin-top: -123px;
 }
 
