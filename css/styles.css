@@ -1,3 +1,14 @@
 html, body, .main-container{
   height: 100%;
 }
+
+.push{
+  clear: both;
+  height: 123px;
+}
+
+.footer-container{
+  position: relative;
+  top: -123px;
+}
+
