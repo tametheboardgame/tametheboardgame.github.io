@@ -43,6 +43,19 @@ nav{
 }
 
 nav a{
-  margin: 10px;
-  display: inline-block
+  padding: 5px 35px;
+  margin: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 900;
+  color: rgb(104, 88, 4);
+  background: rgb(211, 178, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav a:hover{
+  background: rgb(177, 150, 7);
+  color: rgb(63, 54, 8);
 }
