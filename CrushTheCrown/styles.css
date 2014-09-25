@@ -18,4 +18,12 @@ html, body{
 
 .game-title{
   text-align: center;
+  color: rgb(104, 88, 4);
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px black;
+  font-weight: 100;
+  letter-spacing: 0.4em;
+  word-spacing: 1em;
 }
