@@ -26,4 +26,18 @@ html, body{
   font-weight: 100;
   letter-spacing: 0.4em;
   word-spacing: 1em;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.ghost-of-the-navigator{
+  background: rgb(226, 191, 0);
+}
+
+nav{
+  float: right;
+}
+
+nav a{
+  margin: 10px;
 }
