@@ -38,8 +38,13 @@ html, body{
   background: rgb(226, 191, 0);
 }
 
-nav{
+
+.nav-container{
   float: right;
+}
+
+nav{
+  margin: auto;
 }
 
 nav a{
@@ -53,9 +58,13 @@ nav a{
   background: rgb(211, 178, 0);
   border-radius: 5px;
   cursor: pointer;
+  width: 80px;
+  text-align: center;
 }
 
 nav a:hover{
   background: rgb(177, 150, 7);
   color: rgb(63, 54, 8);
 }
+
+
