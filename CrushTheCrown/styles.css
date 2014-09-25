@@ -6,6 +6,10 @@ html, body{
   background: black;
 }
 
+.clearfix{
+  clear: both;
+}
+
 .main-container{
   background: gold;
   max-width: 1000px;
