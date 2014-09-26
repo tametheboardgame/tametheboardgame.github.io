@@ -85,6 +85,7 @@ nav a:hover{
 
 .hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
   z-index: 500;
+  bottom: 40px;
 }
 
 .hearts, .diamonds{
