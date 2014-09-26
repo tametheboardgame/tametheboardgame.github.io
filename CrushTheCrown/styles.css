@@ -78,6 +78,13 @@ nav a:hover{
   display: inline-block;
   cursor: pointer;
   text-transform: capitalize;
+  position: relative;
+  
+  margin-left: -100px;
+}
+
+.hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
+  z-index: 500;
 }
 
 .hearts, .diamonds{
