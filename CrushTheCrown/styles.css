@@ -69,6 +69,12 @@ nav a:hover{
 
 .hearts, .diamonds, .spades, .clubs{
   color: white;
+  width: 150px;
+  height: 200px;
+  border: black 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 200px;
 }
 
 .hearts, .diamonds{
