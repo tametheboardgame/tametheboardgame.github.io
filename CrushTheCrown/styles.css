@@ -74,7 +74,6 @@ nav a:hover{
   border: black 1px solid;
   border-radius: 15px;
   text-align: center;
-  line-height: 200px;
   display: inline-block;
   cursor: pointer;
   text-transform: capitalize;
@@ -84,9 +83,13 @@ nav a:hover{
 }
 
 .hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
-  z-index: 500;
   bottom: 40px;
 }
+
+.game-container .selected{
+  z-index: 500;
+}
+  
 
 .hearts, .diamonds{
   background: red;
