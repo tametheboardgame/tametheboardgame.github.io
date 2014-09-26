@@ -67,4 +67,18 @@ nav a:hover{
   color: rgb(63, 54, 8);
 }
 
+.hearts, .diamonds, .spades, .clubs{
+  color: white;
+}
+
+.hearts, .diamonds{
+  background: red;
+}
+
+.clubs, .spades{
+  background: black;
+}
+
+
+
 
