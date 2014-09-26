@@ -76,6 +76,7 @@ nav a:hover{
   text-align: center;
   line-height: 200px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .hearts, .diamonds{
