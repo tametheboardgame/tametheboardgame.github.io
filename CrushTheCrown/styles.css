@@ -81,6 +81,8 @@ nav a:hover{
   
   margin-left: -100px;
   
+    transform-style: preserve-3d;
+  
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
@@ -99,6 +101,7 @@ nav a:hover{
 
 .game-container .selected{
   z-index: 500;
+  perspective: 800px;
 }
   
 
@@ -111,9 +114,10 @@ nav a:hover{
 }
 
 .rotate{
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY( 180deg );
+    -moz-transform:rotateY( 180deg );
+    -o-transform:rotateY( 180deg );
 }  
 
 
