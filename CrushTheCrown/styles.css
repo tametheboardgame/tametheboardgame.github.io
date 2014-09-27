@@ -80,6 +80,17 @@ nav a:hover{
   position: relative;
   
   margin-left: -100px;
+  
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    
 }
 
 .hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
@@ -99,6 +110,11 @@ nav a:hover{
   background: black;
 }
 
+.rotate{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}  
 
 
 
