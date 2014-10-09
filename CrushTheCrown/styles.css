@@ -100,6 +100,7 @@ nav a:hover{
 .game-container .selected{
   z-index: 500;
   perspective: 800px;
+  position: relative;
 }
   
 
