@@ -28,4 +28,4 @@ for(var i = 1; i < 14; i++)
 {
 	htmlString += cardString("hearts", i) + cardString("diamonds", i) + cardString("spades", i) + cardString("clubs", i);
 }
-$(".game-container").append(htmlString);
+$(".deck-container").append(htmlString);
