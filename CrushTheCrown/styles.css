@@ -93,9 +93,9 @@ nav a:hover{
     
 }
 
-.hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
+/*.hearts:hover, .diamonds:hover, .spades:hover, .clubs:hover{
   bottom: 40px;
-}
+}*/
 
 .game-container .selected{
   z-index: 500;
@@ -124,7 +124,6 @@ nav a:hover{
   width: 100px;
   position: absolute;
   margin: auto;
-  border: 1px solid red;
   top: 280px;
 }
 
