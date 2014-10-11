@@ -21,7 +21,7 @@ function cardString(type, number)
 {
 	var numberName = cardVals[number];
 	
-	return '<div class="' + type + ' ' + numberName + '"><div class="front>"' + numberName + ' of ' + type + '</div><div class="back"></div></div>';
+	return '<div class="' + type + ' ' + numberName + '"><div class="front">' + numberName + ' of ' + type + '</div><div class="back"></div></div>';
 }
 
 for(var i = 1; i < 14; i++)
