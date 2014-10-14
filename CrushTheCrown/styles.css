@@ -103,6 +103,9 @@ nav a:hover{
   position: relative;
 }
   
+.game-container{
+  position: relative;
+}
 
 .hearts, .diamonds{
   background: red;
@@ -123,8 +126,7 @@ nav a:hover{
   height: 200px;
   width: 100px;
   position: absolute;
-  margin: auto;
-  top: 280px;
+  top: 100px;
 }
 
 .hand{
