@@ -152,4 +152,5 @@ nav a:hover{
 .back, .front{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
 }
