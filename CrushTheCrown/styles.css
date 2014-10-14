@@ -120,6 +120,11 @@ nav a:hover{
     -webkit-transform:rotateY( 180deg );
     -moz-transform:rotateY( 180deg );
     -o-transform:rotateY( 180deg );
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }  
 
 .deck-container{
@@ -153,4 +158,9 @@ nav a:hover{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
+      -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }
