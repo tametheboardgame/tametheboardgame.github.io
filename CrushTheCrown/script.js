@@ -29,3 +29,9 @@ for(var i = 1; i < 14; i++)
 	htmlString += cardString("hearts", i) + cardString("diamonds", i) + cardString("spades", i) + cardString("clubs", i);
 }
 $(".deck-container").append(htmlString);
+
+
+
+$(".ace.spades").appendTo(".your-hand");
+
+$(".hand .spades").click(function(){ $(this).toggleClass("rotate") });
