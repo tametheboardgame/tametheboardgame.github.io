@@ -148,3 +148,8 @@ nav a:hover{
   position: absolute;
   top: 0;
 }
+
+.back, .front{
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
