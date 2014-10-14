@@ -141,6 +141,7 @@ nav a:hover{
 .hand .hearts, .hand .diamonds, .hand .spades, .hand .clubs{
   float: right;
   position: relative;
+  -webkit-transform-style: preserve-3d;
 }
 
 .back{
