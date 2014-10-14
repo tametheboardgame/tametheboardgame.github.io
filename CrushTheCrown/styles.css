@@ -108,11 +108,11 @@ nav a:hover{
   position: relative;
 }
 
-.hearts, .diamonds{
+.hearts .front, .hearts .back, .diamonds .front, .diamonds .back{
   background: red;
 }
 
-.clubs, .spades{
+.clubs .front, .clubs .back, .spades .front, .spades .back{
   background: black;
 }
 
