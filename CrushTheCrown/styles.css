@@ -149,6 +149,11 @@ nav a:hover{
   width: 100%;
   position: absolute;
   top: 0;
+  z-index: 4000;
+}
+
+.front{
+  z-index: 4001;
 }
 
 .back, .front{
@@ -160,4 +165,15 @@ nav a:hover{
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
+    
+  -webkit-transition: z-index 1s; /* For Safari 3.1 to 6.0 */
+  transition: z-index 1s;
+}
+
+.rotate .back{
+  z-index: 4001;
+}
+
+.rotate .back{
+  z-index: 4000;
 }
