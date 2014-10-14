@@ -135,3 +135,6 @@ nav a:hover{
   border: 1px solid red;
 }
 
+.hand .hearts, .hand .diamonds, .hand .spades, .hand .clubs{
+  float: right;
+}
