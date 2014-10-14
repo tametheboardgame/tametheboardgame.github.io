@@ -133,9 +133,17 @@ nav a:hover{
   width: 100%;
   height: 200px;
   border: 1px solid red;
+  perspective: 800px;
 }
 
 .hand .hearts, .hand .diamonds, .hand .spades, .hand .clubs{
   float: right;
   position: relative;
+}
+
+.back{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
