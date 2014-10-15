@@ -43,4 +43,4 @@ for(var i = 0; i < 5; i++)
 }
 
 
-$(".hand.your-hand div.card").click(function(){ $(this).toggleClass("rotate") });
+$(".hand.your-hand div.card").click(function(){ $(this).toggleClass("selected") });
