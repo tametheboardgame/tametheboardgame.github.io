@@ -21,7 +21,7 @@ function cardString(type, number)
 {
 	var numberName = cardVals[number];
 	
-	return '<div class="' + type + ' ' + numberName + '"><div class="front">' + numberName + ' of ' + type + '</div><div class="back"></div></div>';
+	return '<div class="card ' + type + ' ' + numberName + '"><div class="front">' + numberName + ' of ' + type + '</div><div class="back"></div></div>';
 }
 
 for(var i = 1; i < 14; i++)
@@ -30,8 +30,15 @@ for(var i = 1; i < 14; i++)
 }
 $(".deck-container").append(htmlString);
 
+for(var i = 0; i < 5; i++)
+{
+	$(".deck-container div.card")[i].appendTo(".other-hand");
+}
+
+for(var i = 0; i < 5; i++)
+{
+	$(".deck-container div.card")[i].appendTo(".your-hand");
+}
 
 
-$(".ace.spades").appendTo(".your-hand");
-
-$(".hand .spades").click(function(){ $(this).toggleClass("rotate") });
+$(".hand div.card").click(function(){ $(this).toggleClass("rotate") });
