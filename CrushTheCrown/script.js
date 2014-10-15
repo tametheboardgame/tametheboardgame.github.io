@@ -32,12 +32,12 @@ $(".deck-container").append(htmlString);
 
 for(var i = 0; i < 5; i++)
 {
-	$(".deck-container div.card")[i].appendTo(".other-hand");
+	$($(".deck-container div.card")[i]).appendTo(".other-hand");
 }
 
 for(var i = 0; i < 5; i++)
 {
-	$(".deck-container div.card")[i].appendTo(".your-hand");
+	$($(".deck-container div.card")[i]).appendTo(".your-hand");
 }
 
 
