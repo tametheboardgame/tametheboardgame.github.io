@@ -33,6 +33,8 @@ $(".deck-container").append(htmlString);
 for(var i = 0; i < 5; i++)
 {
 	$($(".deck-container div.card")[i]).appendTo(".their-hand");
+	
+	$(".their-hand div.card").addClass("rotate");
 }
 
 for(var i = 0; i < 5; i++)
