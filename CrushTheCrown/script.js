@@ -44,3 +44,21 @@ for(var i = 0; i < 5; i++)
 
 
 $(".hand.your-hand div.card").click(function(){ $(this).toggleClass("selected") });
+
+function getSizeRight()
+{
+	if(window.outerWidth < 670)
+	{
+		$(".game-container").css({"zoom" : 0.6});
+	}
+	else
+	{
+		$(".game-container").css({"zoom" : 1});
+	}
+}
+
+getSizeRight();
+
+$( window ).resize(function() {
+	getSizeRight();
+});
