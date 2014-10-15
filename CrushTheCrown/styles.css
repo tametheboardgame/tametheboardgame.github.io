@@ -103,6 +103,10 @@ nav a:hover{
   perspective: 800px;
   position: relative;
 }
+
+.hand .selected{
+  bottom: 50px;
+}
   
 .game-container{
   position: relative;
