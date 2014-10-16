@@ -39,6 +39,10 @@ html, body{
   vertical-align: middle;
 }
 
+.welcome-message .close{
+  
+}
+
 .game-title{
   text-align: center;
   color: rgb(104, 88, 4);
