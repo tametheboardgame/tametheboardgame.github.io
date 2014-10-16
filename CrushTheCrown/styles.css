@@ -28,6 +28,11 @@ html, body{
   border: 20px rgb(104, 88, 4) solid;
   box-sizing: border-box;
   background: gold;
+  z-index: 5000;
+}
+
+.hidden{
+  display: none;
 }
 
 .welcome-message .game-title{
