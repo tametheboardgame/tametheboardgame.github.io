@@ -51,6 +51,7 @@ function getSizeRight()
 	{
 		$(".game-container").css({"zoom" : 0.6});
 		$(".main-container .game-title").addClass("hidden");
+		$(".welcome-message").removeClass("hidden");
 	}
 	else
 	{
