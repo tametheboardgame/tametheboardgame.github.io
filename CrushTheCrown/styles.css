@@ -21,6 +21,19 @@ html, body{
   box-sizing: border-box;
 }
 
+.welcome-message{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 20px rgb(104, 88, 4) solid;
+  box-sizing: border-box;
+  background: gold;
+}
+
+.welcome-message .game-title{
+  vertical-align: middle;
+}
+
 .game-title{
   text-align: center;
   color: rgb(104, 88, 4);
