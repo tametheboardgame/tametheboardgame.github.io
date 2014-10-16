@@ -40,7 +40,19 @@ html, body{
 }
 
 .welcome-message .close{
-  
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  max-width: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background: rgb(104, 88, 4);
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  text-shadow: black 2px 2px 1px;
+  box-shadow: white 0 0 5px 2px;
 }
 
 .game-title{
