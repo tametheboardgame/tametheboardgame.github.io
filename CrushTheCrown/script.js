@@ -49,11 +49,11 @@ function getSizeRight()
 {
 	if(window.outerWidth < 670)
 	{
-		$(".game-container").css({"transform" : "scale(0.6)"});
+		$(".game-container").css({"transform" : "scale(0.6)", "-webkit-transform" : "scale(0.6)", "-moz-transform" : "scale(0.6)"});
 	}
 	else
 	{
-		$(".game-container").css({"transform" : "none"});
+		$(".game-container").css({"transform" : "none","-webkit-transform" : "none","-moz-transform" : "none"});
 	}
 }
 
