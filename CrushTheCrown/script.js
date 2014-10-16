@@ -50,10 +50,12 @@ function getSizeRight()
 	if(window.outerWidth < 670)
 	{
 		$(".game-container").css({"zoom" : 0.6});
+		$(".main-container .game-title").addClass("hidden");
 	}
 	else
 	{
 		$(".game-container").css({"zoom" : 1});
+		$(".main-container .game-title").removeClass("hidden");
 	}
 }
 
@@ -61,4 +63,8 @@ getSizeRight();
 
 $( window ).resize(function() {
 	getSizeRight();
+});
+
+$(".welcome-message .close").click(function(){
+	$(".welcome-message").addClass("hidden");	
 });
